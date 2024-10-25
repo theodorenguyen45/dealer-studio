@@ -6,7 +6,7 @@ const cardsData = [
   {
     id: 1,
     title: 'Heading 1',
-    image: '/assets/city.jpg',
+    image: '/dealer-studio/assets/city.jpg',
     paragraphs: [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris arcu felis, sagittis eu leo sed, eleifend tincidunt felis. Nullam bibendum nisi dictum, ullamcorper magna a.',
     ],
@@ -14,7 +14,7 @@ const cardsData = [
   {
     id: 2,
     title: 'Heading 2',
-    image: '/assets/city.jpg',
+    image: '/dealer-studio/assets/city.jpg',
     paragraphs: [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris arcu felis, sagittis eu leo sed, eleifend tincidunt felis. Nullam bibendum nisi dictum, ullamcorper magna a.',
     ],
@@ -22,7 +22,7 @@ const cardsData = [
   {
     id: 3,
     title: 'Heading 3',
-    image: '/assets/city.jpg',
+    image: '/dealer-studio/assets/city.jpg',
     paragraphs: [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris arcu felis, sagittis eu leoe sed, eleifend tincidunt felis.',
       'Ut lacus enim, lobortis eu volutpat quis, tincidunt et diam. Ut elementum a magna nec tristique.',

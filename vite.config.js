@@ -14,7 +14,6 @@ export default defineConfig({
   },
   build: {
     outDir: 'dist',
-    // assetsDir: 'assets', // Ensures assets are stored in a folder within dist
   },
-  base: '/', // Set this to your repository name on GitHub
+  base: '/dealer-studio/', // Set this to your repository name on GitHub
 });
