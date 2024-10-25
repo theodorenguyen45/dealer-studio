@@ -1,0 +1,51 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease-in-out;
+  width: 100%;
+  flex-grow: 1;
+
+  &--selected {
+    outline: 4px solid #007bff;
+  }
+
+  &__image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px 8px 0 0;
+  }
+
+  &__header,
+  &__body {
+    margin: 16px;
+  }
+
+  &__header {
+    margin-bottom: 0px;
+  }
+
+  .button {
+    margin: 0px 16px 16px 16px;
+  }
+
+  &__header h2 {
+    font-size: 1.8em;
+    margin: 0;
+  }
+
+  &__body {
+    font-size: 1em;
+    color: #333;
+    flex-grow: 1;
+
+    p {
+      margin-bottom: 0;
+    }
+    p:first-child {
+      margin-top: 0;
+    }
+  }
+}

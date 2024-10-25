@@ -1,0 +1,27 @@
+{
+  "name": "dealer-studio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "gh-pages": "^6.2.0",
+    "globals": "^15.11.0",
+    "path": "^0.12.7",
+    "sass": "^1.80.4",
+    "vite": "^5.4.9"
+  },
+  "homepage": "https://theodorenguyen45.github.io/dealer-studio/"
+}
